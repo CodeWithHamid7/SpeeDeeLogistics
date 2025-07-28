@@ -81,10 +81,10 @@ const Header = () => {
       {/* Service Updates Banner */}
       <div className="bg-destructive text-destructive-foreground text-xs py-2 px-4 overflow-hidden relative">
         <div className="animate-marquee whitespace-nowrap flex">
-          <span className="mx-8">SERVICE UPDATES: Beware of emails or communications from any other website except speedeelogistics.com</span>
+          <span className="mx-8">SERVICE UPDATES: Beware of emails or communications from any other website except speedeelogisticsindia@gmail.com</span>
           <span className="mx-8">Please do not transfer money to payment links that are not shared from SpeeDee's official accounts</span>
           <span className="mx-8">SpeeDee does not require OTP or credentials for address confirmation for your delivery</span>
-          <span className="mx-8">SERVICE UPDATES: Beware of emails or communications from any other website except speedeelogistics.com</span>
+          <span className="mx-8">SERVICE UPDATES: Beware of emails or communications from any other website except speedeelogisticsindia@gmail.com</span>
         </div>
       </div>
 
