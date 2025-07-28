@@ -3,6 +3,7 @@ import { Menu, X, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link, useNavigate, useLocation } from "react-router-dom";
 import FormPopup from "./FormPopup";
+import logo from "../assets/logo.jpeg"
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -93,7 +94,7 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center">
             <div className="text-2xl font-bold text-primary">
-              SPEEDEE LOGISTICS
+              <img src={logo} alt="SpeeDee Logistics Logo" />
             </div>
           </Link>
 
