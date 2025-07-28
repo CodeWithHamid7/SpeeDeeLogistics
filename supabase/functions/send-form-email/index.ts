@@ -42,7 +42,7 @@ const handler = async (req: Request): Promise<Response> => {
 
     const emailResponse = await resend.emails.send({
       from: "SpeeDee Logistics <onboarding@resend.dev>",
-      to: ["speedeelogisticsindia@gmail.com"],
+      to: ["hamidkhan4ks@gmail.com"],
       subject: `${subject} - SpeeDee Logistics`,
       html: emailHtml,
     });
